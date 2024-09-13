@@ -75,3 +75,116 @@ p {
     flex-grow: 1;
     flex-basis: 0;
 }
+
+
+/* Second section with random information and pictures */
+
+.random-header {
+    font: 36px;
+    color: #1F2937;
+    font-weight: 900;  
+}
+
+.rando {
+    text-align: center;        /* Centers the title and subtext*/
+    background-color: #F9FAF8; /* Matches the light background color */
+    padding: 50px 200px;       /* Padding around the section */
+
+}
+
+.pics {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pic-container {
+    width: 22%;
+    text-align: center;
+}
+
+.rando-pics {
+    width: 200px;               /* Fixed width */
+    height: 200px;              /* Fixed height for a perfect square */
+    object-fit: cover;          /* Ensures image fits without distortion */
+    border: 2px solid #3882F7; /* Adds the blue border */
+    border-radius: 10px;       /* Slightly round the image corners */
+    border-width: 5px;
+    cursor: pointer;            /* Cursor changes to pointer when hovered */
+}
+
+.rando-pic-text {
+    font-size: 18px;
+    color: #1F2937;
+    margin-top: 10px;          /* Adds some spacing between the image and the text */
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Qoute section */
+
+.qoutesection {
+    background-color: #E5E7EB;
+}
+
+.qoute {
+    font-size: 36px; 
+    font-style: italic;
+    color: #1f2937;
+    padding: 50px 200px 0px 200px;
+}
+
+.thor {
+    padding: 0px 200px 50px 200px;  
+    display: flex;
+    justify-content: right;
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+/* 4rth section */
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;       /* Padding around the section */
+}
+
+.container1 {
+    display: flex;
+    border: 2px solid #3882F7;
+    border-radius: 5px;       /* Slightly round the image corners */
+    background-color: #3882F7;
+    color: #E5E7EB;
+    padding: 25px;          /* Blue padding inside the container */
+    width: 100%;            /* Full width to match the parent */
+    justify-content: space-around;
+}
+
+.header-call {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button2 {
+    color: #E5E7EB;
+    font-size: 18px;
+    border-radius: 5px;       /* Slightly round the image corners */
+    background-color: #3882F7;
+    border-color: #E5E7EB;
+    padding: 0px 25px;
+    font-weight: 900;
+    border-style:solid
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    color: #E5E7EB;
+    font-size: 50px;
+    text-align: center;
+}
